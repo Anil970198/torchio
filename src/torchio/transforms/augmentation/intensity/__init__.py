@@ -1,5 +1,6 @@
 from .random_bias_field import BiasField
 from .random_bias_field import RandomBiasField
+from .random_biasfield_denoise import RandomBiasFieldDenoise
 from .random_blur import Blur
 from .random_blur import RandomBlur
 from .random_gamma import Gamma
@@ -36,4 +37,5 @@ __all__ = [
     'BiasField',
     'RandomLabelsToImage',
     'LabelsToImage',
+    'RandomBiasFieldDenoise',
 ]

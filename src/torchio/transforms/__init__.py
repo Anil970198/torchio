@@ -8,6 +8,7 @@ from .augmentation.intensity import LabelsToImage
 from .augmentation.intensity import Motion
 from .augmentation.intensity import Noise
 from .augmentation.intensity import RandomBiasField
+from .augmentation.intensity import RandomBiasFieldDenoise
 from .augmentation.intensity import RandomBlur
 from .augmentation.intensity import RandomGamma
 from .augmentation.intensity import RandomGhosting
@@ -120,4 +121,5 @@ __all__ = [
     'RemoveLabels',
     'SequentialLabels',
     'KeepLargestComponent',
+    'RandomBiasFieldDenoise',
 ]
